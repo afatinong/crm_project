@@ -7,6 +7,7 @@ def home(request):
     return HttpResponse("Home Page")
 
 def products(request):
+    print("hi")
     return HttpResponse("Products Page")
 
 def customer(request):
